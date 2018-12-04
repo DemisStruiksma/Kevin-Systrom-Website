@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body {
+  background-color: #ffffff;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+ .box-shadow { /*Schaduw voor de navbar (wanneer de bezoeker naar beneden scrollt)*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content {
+  margin-top: 150px;
+}
+
+.foto1 {
+  margin-top: -45px;
+  width: 270px;
+  height: 337.5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#bio {
+  margin-left: 350px;
+  margin-top: -348px;
+}
+
+#vague-text {
+  opacity: 0.5;
+}
+
+#vague-text2 {
+  opacity: 0.3;
+}
+
+#vague-text3 {
+  opacity: 0.1;
+}
+
+#read-more {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all .2s ease-in-out;
+  background-color: #405DE6;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  width: 150px;
+  height: 60px;
+  margin-left: 0px;
+  border-radius: 4px;
+}
+
+#read-more:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.26);
+  opacity: 0.80;
+  transform: scale(1.2);
+}
+
+#scheiding {
+  margin-top: 150px;
+}
+
+#photos-title {
+  margin-bottom: 50px;
+}
+
+#photos-subTitle {
+  margin-top: 25px;
+}
+
+#bio-title {
+  margin-bottom: 50px;
+}
+
+#slider {
+  margin-top: 150px;
+}
+
+footer {
+  margin-top: 250px;
+  margin-bottom: 0px;
+}
